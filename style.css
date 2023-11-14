@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins" sans-serif;
+  box-sizing: border-box;
+  font-size: 18PX;
+}
+.main{
+  margin: 10% auto;
+  background-color: rgba(14, 207, 207, 0.349);
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px 5px;
+}
+input ,button{
+  width: 100%;
+  margin-bottom: 10px;
+}
+input{
+  border: none;
+  outline: none;
+  border-radius: 10PX;
+  padding: 10PX;
+  height: 25PX;
+  font-size: 12PX;
+}
+button{
+  background-color: rgba(48, 145, 145, 0.61);
+  margin-top: 10PX;
+  border: none;
+  outline: none;
+  border-radius: 10PX;
+}
+button:hover{
+  background-color: rgb(29, 114, 143);
+  transition: 2s ease-in-out;
+  cursor: pointer;
+}
+header{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15PX;
+}
+H1{
+  font-size: 30PX;
+  font-weight:bold;
+}
+H2{
+  font-size: 20PX;
+  font-weight: 900;
+  margin-bottom: 5PX;
+}
+label{
+  font-weight: bold;
+}
+.msg{
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(223, 9, 9);
+  
+  border-radius: 10px;
+  height: 20px;
+  padding: 5px;
+
+}
+#users{
+  color: rgb(38, 0, 255);
+  
+}

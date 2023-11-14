@@ -1,0 +1,51 @@
+const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const mymsg = document.querySelector('.msg');
+const list = document.querySelector('#users');
+
+myForm.addEventListener('submit', onSubmit);
+
+function onSubmit(e){
+  e.preventDefault();
+  
+if(nameInput.value === '' || emailInput.value === ''){
+  mymsg.innerHTML = 'Please fill blank spaces.';
+  setTimeout( () => mymsg.remove(), 3000);
+}else{
+  const li = document.createElement('li');
+  li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
+
+  list.appendChild(li);
+
+  nameInput.value = '';
+  emailInput.value = '';
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
